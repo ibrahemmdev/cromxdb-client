@@ -7,7 +7,7 @@ A simple and lightweight Node.js client for interacting with the CromxDB REST AP
 ## 🚀 Installation
 
 ```bash
-npm install cromxdb-client
+npm install cromx-database-client
 ```
 
 ---
@@ -61,7 +61,7 @@ Returns multiple documents (same as `find` for now).
 ### 🔍 Find by ID
 
 ```js
-db.findById(collection, id)
+db.findById(collection, { id: "your id" })
 ```
 
 ---
