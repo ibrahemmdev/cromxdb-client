@@ -15,7 +15,7 @@ npm install cromx-database-client
 ## 🧠 Usage
 
 ```js
-const CromxDB = require("cromxdb-client");
+const CromxDB = require("cromx-database-client");
 
 const db = new CromxDB("your-database-id");
 
